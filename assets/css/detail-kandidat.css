@@ -1,0 +1,78 @@
+.detail-calonKandidat {
+    margin-top: 6rem;
+}
+
+.detail-calonKandidat h3 {
+    color: rgba(25, 118, 252, 1);
+}
+
+.detail-calonKandidat .detailBtnKandidat {
+    display: flex;
+    width: 140px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    height: 35px;
+    background: rgba(25, 118, 252, 1);
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+}
+
+.detail-calonKandidat .detailBtnKandidat:hover {
+    background: rgb(11, 110, 248);
+    transition: all ease .3s;
+    box-shadow: 2px 2px 10px rgba(25, 118, 252, .3);
+}
+
+.detail-calonKandidat .detailVoteBtn {
+    display: flex;
+    background: none;
+    font-size: 14px;
+    margin-bottom: 10px;
+    height: 35px;
+    border: 1px solid rgba(25, 118, 252, 1);
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    color: rgba(25, 118, 252, 1);
+}
+
+.detail-calonKandidat .detailVoteBtn:focus {
+    outline: none;
+    border: none;
+}
+
+.detail-calonKandidat .detailVoteBtn:hover {
+    background: rgba(25, 118, 252, 1);
+    color: #fff;
+    transition: all ease .3s;
+    box-shadow: 2px 3px 20px rgba(25, 118, 252, .3);
+}
+
+/* Daftar Kandidat */
+.detail-calonKandidat .table-responsive span {
+    font-weight: 700;
+}
+
+.waktu-pemilihan .col-auto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.waktu-pemilihan .col-auto .timer {
+    margin: 20px 1.3rem;
+    text-align: center;
+}
+
+.waktu-pemilihan .col-auto .timer h1{
+    color: rgba(0, 0, 0, .8);
+}
+
+.waktu-pemilihan .col-auto .timer span{
+    color: rgba(0, 0, 0, .5);
+}

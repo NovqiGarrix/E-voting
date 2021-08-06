@@ -1,0 +1,157 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.login {
+    background-image: url(../img/poduct\ bg.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.login .row {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.login img {
+ margin-top: 5rem;
+ width: 530px;
+ height: 530px;   
+}
+
+
+.login .input-wrapper{
+    margin-left: 2rem;
+    width: 400px;
+}
+
+.input-wrapper .divider {
+    border: 1px solid rgba(25, 118, 253, 1);
+    width: 75%;
+    margin-bottom: 1rem;
+}
+
+.input-wrapper h2 {
+    font-family: 'Fredoka One', cursive;
+    color: rgba(25, 118, 253, 1);
+}
+
+.input-wrapper form .inputField{
+    width: 400px;
+    padding: 0 10px;
+    outline: none;
+    height: 38px;
+    margin-bottom: 15px;
+    border: none;
+    background-color: #FBFBFB;
+    box-shadow: 3px 2px 5px rgba(0, 0, 0, .2);
+}
+
+
+.input-wrapper .icon {
+    text-align: center;
+    display: inline;
+    margin-left: -40px;
+}
+
+.input-wrapper .icon i {
+    color: rgba(25, 118, 253, 1);
+    margin: auto;
+}
+
+.checkbox h5 {
+    font-family: 'Fredoka One', cursive;
+    font-size: 15px;
+    color: rgba(25, 118, 253, 1);
+}
+
+.checkbox {
+    margin-top: -5px;
+    margin-left: 1.3rem;
+}
+
+.input-wrapper button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 400px;
+    height: 48px;
+    border: none;
+    outline: none;
+    background-color: rgba(25, 118, 253, 1);
+    border-radius: 25px;
+    color: white;
+    margin-top: 20px;
+}
+
+.input-wrapper button:hover {
+    outline: none;
+    border: none;
+    transition: all ease .5s;
+    background: rgb(4, 100, 243);
+}
+
+.input-wrapper .noAccount {
+    float: right;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Fredoka One', cursive;
+}
+
+.input-wrapper .noAccount:hover {
+    transition: all ease .5s;
+}
+
+.login .copyright {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Fredoka One', cursive;
+    color: rgba(25, 118, 253, .8);
+}
+
+.input-wrapper .option {
+    width: 400px;
+    height: 38px;
+    margin-bottom: 15px;
+}
+
+.input-wrapper .option select {
+    border: none;
+    outline: none;
+    background: #FBFBFB;
+    box-shadow: 3px 2px 5px rgba(0, 0, 0, .2);
+    width: 100%;
+    height: 38px;
+    padding: 0 10px;
+    color: #747474;
+}
+
+.input-wrapper .option option{
+    border: none;
+    outline: none;
+    background: #FBFBFB;
+    font-size: 15px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

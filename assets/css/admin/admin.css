@@ -1,0 +1,79 @@
+.imgKandidatAdmin {
+    width: 240px;
+    height: 130px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.imgKandidatAdmin img {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+.form-group textarea {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.form-group textarea:focus {
+    outline-style: hidden;
+    outline: 2px solid rgba(25, 118, 253, 0.3);
+    transition: all ease .3s;
+}
+
+.waktu-pemilih .col-auto{
+    display: flex;
+    align-items: center;
+}
+
+.edit-waktu-pemilihan .editButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+}
+
+.edit-waktu-pemilihan .editButton .waktu-pemilihModal, .edit-waktu-pemilihan .editButton .token-daftarModal{
+    text-align: center;
+    margin: 0 10px;
+}
+
+.edit-waktu-pemilihan .editButton .waktu-pemilihModal p, .edit-waktu-pemilihan .editButton .token-daftarModal p{
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.editButton a {
+    text-align: center;
+    width: 30px;
+    border-radius: 20px;
+    height: 30px;
+    padding: 10px 10px;
+    color: rgba(25, 118, 253, 1);
+    border: 1px solid rgba(25, 118, 253, 1);
+}
+
+.editButton a i {
+    margin-left: 3px;
+}
+
+.editButton a:hover {
+    transition: all ease .3s;
+    color: #fff;
+    background: rgba(25, 118, 253, 1)
+}
+
+.waktu-pemilih .col-auto .timer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 3rem;
+    margin-bottom: 2.8rem;
+    text-align: center;
+}
+
+.waktu-pemilih .col-auto .timer h1 {
+    font-size: 5rem;
+}
